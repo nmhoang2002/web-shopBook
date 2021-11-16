@@ -12,8 +12,20 @@ body {
 }
 #head {
     height: 120px;
-    background: #0b577a;
+    background: #e49607;
     color: #fff;
+}
+.search-text{
+    width: 50%;
+    height: 20px;
+    background-color: none;
+   
+    margin-left: 20px;
+}
+.search-text input{
+    height: 20px;
+    width: 50%;
+    border-radius: 10px;
 }
 #head h1 {
     margin: 0;

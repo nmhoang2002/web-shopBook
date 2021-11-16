@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Giao Diên</title>
         <link rel="stylesheet" href="../css/Styles.css"> <!-- link tới file CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     </head>
     <body>
         <div id = "main"><!--bao toàn bộ khung website-->
@@ -12,6 +13,12 @@
                 <h2>TẠI SHOP ONLINE</h2>
                 <h3>HOÀNG TIẾN TRANG</h3>
                 <h4>(Những bộ sách sắp phát hành với giá ưu đãi cực sốc)</h4>
+                <div class="search-text">
+                    <input type="search" name="search" placeholder="Tìm kiếm">
+                    <a href="#"class="search-btn">
+                    <i class="fa fa-search"></i>
+                    </a>
+                </div>
             </div><!--End phần Banner-->
             <div id ="menutop"><!--phần Menutop-->
                 <ul>
