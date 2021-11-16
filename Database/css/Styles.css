@@ -7,7 +7,7 @@ body {
     line-height: 1.5em;
 }
 #main {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
    
 }
@@ -30,23 +30,7 @@ body {
     background-color:#706145;
     margin: -60px 763px 2px 66px;
 }
-/* .search-text{
-    width: 50%;
-    height: 20px;
-    background-color: none;
-    border: 1px solid red;
-    border-radius: 10px;
-    margin-left: 20px;
-}
-.search-text input{
-    height: 20px;
-    width: 30%;
-    border: none;
-    border-radius: 10px;
-}
-.search-btn{
-    
-} */
+
 #head h1 {
     margin: 0;
     padding: 5px 15px;
@@ -105,40 +89,7 @@ body {
     margin-right: -100%;
     width: 300px;
 }
-#menuright {
-    margin: 0;
-    padding: 15px 5px;
-    line-height: 1.8em;
-}
-#menuright ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-#menuright ul li a {
-    padding: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #044e63;
-}
-#menuright ul li a:hover {
-    color: #631404;
-    text-decoration: underline;
-}
-.dinhdang {
-    width: 97%;
-    background: #eef8fb;
-    margin: 10px auto;
-    border-radius: 7px;
-    box-shadow: 2px 2px 20px #024457;
-}
-.dinhdang h1 {
-    margin: 0;
-    padding: 5px 15px;
-    font-size: 1em;
-    color: #fff000;
-    background: #042e3a;
-}
+
 #footer {
     clear: both;
     background: #144d68;
