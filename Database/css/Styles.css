@@ -12,11 +12,25 @@ body {
    
 }
 #head {
+    width: 100%;
     height: 120px;
     background: #e49607;
     color: #fff;
+    display: grid;
 }
-.search-text{
+.search-text {
+    margin-left: 7px;
+   overflow: hidden;
+   position: absolute;
+   width: 133%;
+   margin-top:36px ;
+  text-align: center;  
+}
+.logo{
+    background-color:#706145;
+    margin: -60px 763px 2px 66px;
+}
+/* .search-text{
     width: 50%;
     height: 20px;
     background-color: none;
@@ -32,7 +46,7 @@ body {
 }
 .search-btn{
     
-}
+} */
 #head h1 {
     margin: 0;
     padding: 5px 15px;
