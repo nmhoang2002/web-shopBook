@@ -24,6 +24,9 @@
                     <i class="fa fa-search"></i>
                     </a>
                 </div>
+                <div class="logo">
+                  <img src="../img/logo.png" alt="logo"width="180px"; height="60px">
+                </div>
             </div><!--End phần Banner-->
             <div id ="menutop"><!--phần Menutop-->
                 <ul>
@@ -45,7 +48,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div class="col">
                 <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" ></svg> <!--dòng này giống dòng 64 do t xóa để test-->
+                <svg class="bd-placeholder-img card-img-top "><img src="../img/logo.png"alt="logo" width="100%" height="225" ></svg> <!--dòng này giống dòng 64 do t xóa để test-->
                  
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
