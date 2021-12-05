@@ -56,6 +56,8 @@ body {
     font-family: "Times New Roman";
     font-size: 1.5em;
 }
+
+
 #menutop {
     height: 35px;
     background: #036ea0;
@@ -66,14 +68,14 @@ body {
     padding: 0;
     list-style: none;
 }
-#menutop ul li a {
+#menutop ul  li a {
     float: left;
     text-decoration: none;
     color: white;
     padding: 7px 17px;
     font-weight: bold;
 }
-#menutop ul li a:hover {
+#menutop ul  li  a:hover {
     color: #fff000;
     background: #146834;
 }
@@ -85,11 +87,7 @@ body {
 #content {
     margin-right: 300px;
 }
-#right {
-    float: right;
-    margin-right: -100%;
-    width: 300px;
-}
+
 
 #footer {
     clear: both;
