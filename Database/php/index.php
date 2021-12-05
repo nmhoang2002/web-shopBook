@@ -28,22 +28,34 @@
                 <div class="logo">
                   <img src="../img/logo.png" alt="logo"width="180px"; height="60px">
                 </div>
+                <div id = "mainmenu" >
+                  <ul>
+                    <button>Đăng Ký</button>
+                    <button>Đăng Nhập</button>
+                  </ul>
+                </div>
             </div><!--End phần Banner-->
+            
             <div id ="menutop"><!--phần Menutop-->
                 <ul>
-                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="#">Giới thiệu</a></li>
                     <li><a href="#">Thể Loại</a></li>
                     <li><a href="#">Các hoạt động</a></li>
                     <li><a href="#">Trợ giúp</a></li>
                     <li><a href="#">Nhà xuất bản</a></li> 
                     <!--  icons giỏ hàng -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" float="left"fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16" >
+                    <a href="../view/giohang.php"> <svg  xmlns="http://www.w3.org/2000/svg" color="white" width="25" height="25" float="right" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16" >
   <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-</svg>                
+</svg>  </a>             
+                    
                 </ul>
             </div><!--End phần Menutop-->
-            
+            <div class="container"> <!--Bìa quảng cáo-->
+            <img src="../img/slide1.png" width="600px" height="350px" >
+            <div class="sl2"><img  src="../img/slide2.png" width="400px" height="150px"float="top">
+              <img src="../img/slide3.png" width="400px" height="150px" float="bottom"><div>
+            </div><!--end bìa quảng cáo-->
             <div id ="maincontent"><!--phần bao của content-->
             <div class="album py-5 bg-light">
           <div class="container">
@@ -58,8 +70,8 @@
                     <b><i style="color:red;">đ 109.000</i></b>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
-                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
+                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
                     </div>
@@ -75,7 +87,7 @@
                    <b><i style="color:red;">đ 119.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -92,7 +104,7 @@
                    <b><i style="color:red;">đ 129.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -110,7 +122,7 @@
                    <b><i style="color:red;">đ 89.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -127,7 +139,7 @@
                    <b><i style="color:red;">đ 79.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -144,7 +156,7 @@
                    <b><i style="color:red;">đ 200.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -162,7 +174,7 @@
                    <b><i style="color:red;">đ 79.600</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -178,7 +190,7 @@
                    <b><i style="color:red;">đ 179.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -194,7 +206,7 @@
                    <b><i style="color:red;">đ 119.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -211,7 +223,7 @@
                    <b><i style="color:red;">đ 99.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -228,7 +240,7 @@
                    <b><i style="color:red;">đ 109.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -245,7 +257,7 @@
                    <b><i style="color:red;">đ 120.000</i></b>
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                       <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> 
+                     <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -253,7 +265,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> <!--end phần content-->
           </div>
         </div>
         

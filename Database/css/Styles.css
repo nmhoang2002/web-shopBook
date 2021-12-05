@@ -111,4 +111,29 @@ body {
       font-size: 3.5rem;
     }
   }
+  .search-text {
+    margin-left: 100px;
+    overflow: hidden;
+    position:absolute;
+    width: 140%;
+    margin-top:40px ;
+   text-align: center;  
+ }
+ #mainmenu {
+     margin-left: 920px;
+     margin-top: -35px;
+ }
+ #mainmenu ul button:hover {
+     color: #fff000;
+     background: #146834;
+ }
+ #mainmenu ul button {
+     color: #fff000;
+     background: #146834;
+ }
+ .sl2 {
+     
+     border-bottom:2px tomato;
+     float:right;
+ }
  
