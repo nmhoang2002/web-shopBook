@@ -2,7 +2,7 @@
 <html lang="vi">
     <head>
         <meta charset="utf-8">
-        <title>Giao Diên</title>
+        <title>đăng ký</title>
         <link rel="stylesheet" href="../js/scrip.js">
         <link rel="stylesheet" href="../css/Styles.css"> <!-- link tới file CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
