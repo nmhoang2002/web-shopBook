@@ -31,7 +31,7 @@
                 <div id = "mainmenu" >
                   <ul>
                     <a href="../view/dangky.php"><button>Đăng Ký</button></a>
-                    <button>Đăng Nhập</button>
+                    <a href="../login/login.php"><button>Đăng Nhập</button></a>
                   </ul>
                 </div>
             </div><!--End phần Banner-->
