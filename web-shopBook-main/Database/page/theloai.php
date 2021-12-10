@@ -31,7 +31,7 @@
                 <div id = "mainmenu" >
                   <ul>
                     <a href="../view/dangky.php"><button>Đăng Ký</button></a>
-                    <button>Đăng Nhập</button>
+                    <a href="../login/index.php"><button>Đăng Nhập</button></a>
                   </ul>
                 </div>
             </div><!--End phần Banner-->
@@ -50,22 +50,16 @@
                     </svg>  </a>
                 </ul>
             </div><!--End phần Menutop-->
-            <div class="container"> <!--Bìa quảng cáo-->
-                <div id ="maincontentgt"><!--phần bao của content-->                    
-                    <div class="album py-5 bg-light">
+                <div id ="maincontentgt"><!--phần bao của content-->                                           
                     <!-- them -->
-                        123123
-                    <!-- het -->
-                    </div>
-                </div>
-            </div>
-
-</main>
-    <div id = "footer"><!--phần cuối trang-->
+                   
+                </div><!--endphần bao của content--> 
+       
+        <div id = "footer"><!--phần cuối trang-->
                 CopyRight: Trang bán Sách<br>
                 Biên tập thiết kế, xây dựng và quản trị: Phạm Văn Tiến<br>
                 Chịu trách nhiệm chính: Đỗ Thị Đài Trang, Nguyễn Minh Hoàng
-            </div><!--End phần cuối trang-->
-        </div><!--End bao toàn bộ khung websites-->
-    </body>
+        </div><!--End phần cuối trang-->
+   </div><!--End bao toàn bộ khung websites-->
+</body>
 </html>

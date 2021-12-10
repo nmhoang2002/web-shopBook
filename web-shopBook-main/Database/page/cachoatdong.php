@@ -2,7 +2,7 @@
 <html lang="vi">
     <head>
         <meta charset="utf-8">
-        <title>The Loai</title>
+        <title>Các hoạt động</title>
         <link rel="stylesheet" href="../js/scrip.js">
         <link rel="stylesheet" href="../css/Styles.css"> <!-- link tới file CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -31,7 +31,7 @@
                 <div id = "mainmenu" >
                   <ul>
                     <a href="../view/dangky.php"><button>Đăng Ký</button></a>
-                    <button>Đăng Nhập</button>
+                    <a href="../login/index.php"><button>Đăng Nhập</button></a>
                   </ul>
                 </div>
             </div><!--End phần Banner-->
