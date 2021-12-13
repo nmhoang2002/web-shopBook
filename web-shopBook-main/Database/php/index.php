@@ -30,8 +30,8 @@
                 </div>
                 <div id = "mainmenu" >
                   <ul>
-                    <a href="../view/dangky.php"><button>Đăng Ký</button></a>
-                    <a href="../login/login.php"><button>Đăng Nhập</button></a>
+                    <a href="../page/dangky.php"><button>Đăng Ký</button></a>
+                    <a href="../page/login.php"><button>Đăng Nhập</button></a>
                   </ul>
                 </div>
             </div><!--End phần Banner-->
@@ -78,7 +78,7 @@
                       <div class="btn-group">
                       <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
                     </div>
@@ -96,7 +96,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/tlh.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/tlh.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -115,7 +115,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -135,7 +135,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -154,7 +154,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -173,7 +173,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -193,7 +193,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -211,7 +211,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -229,7 +229,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -248,7 +248,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -267,7 +267,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -286,7 +286,7 @@
                      <div class="btn-group">
                      <a href="../view/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
                        <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
-                       <a href="../page/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
+                       <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
