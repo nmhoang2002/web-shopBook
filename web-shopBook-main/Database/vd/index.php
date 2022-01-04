@@ -1,19 +1,24 @@
+<?php
+session_start();
+$userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
+?>
 <!DOCTYPE html>
-<html lang="vi">
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>Giao Diên</title>
+    <title>Giao Diên</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8">       
         <link rel="stylesheet" href="../js/scrip.js">
         <link rel="stylesheet" href="../css/Styles.css"> <!-- link tới file CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
     </head>
-    <body >
-   
-        <div id = "main"><!--bao toàn bộ khung website-->
+    <body>
+    <div id = "main"><!--bao toàn bộ khung website-->
             <div id ="head"><!--phần Banner-->
                 <h1>MUA SÁCH NHANH VÀ RẺ NHẤT</h1>
                 <h2>TẠI SHOP ONLINE</h2>
@@ -21,7 +26,7 @@
                 <h3>HTT</h3>
                 <h4>(Những bộ sách sắp phát hành với giá ưu đãi cực sốc)</h4>
                 <div class="search-text">
-                    <input type="search" id="search" name="search" placeholder="Tìm kiếm" >
+                    <input type="search" name="search" placeholder="Tìm kiếm">
                     <a href="#"class="search-btn">
                     <i class="fa fa-search"></i>
                     </a>
@@ -31,8 +36,13 @@
                 </div>
                 <div id = "mainmenu" >
                   <ul>
-                    <a href="../vd/register.php"><button>Đăng Ký</button></a>
-                    <a href="../vd/login.php"><button>Đăng Nhập</button></a>
+                  <?php
+                    if ($userInfo !== null) {
+                        echo "" . $userInfo['username'] . "</b>";
+                        echo "&nbsp;&nbsp;&nbsp;";
+                        echo "<a href='logout.php'>Đăng xuất</a>";
+                    } 
+                    ?>
                   </ul>
                 </div>
             </div><!--End phần Banner-->
@@ -75,7 +85,6 @@
                 <img src="../img/KHVT.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
                  
                   <div class="card-body">
-                    <title>abc</title>
                     <p class="card-text"> Khoa học viễn tưởng<br>Người truyền ký ức</p>
                     <b><i style="color:red;">đ 109.000</i></b>
                     <div class="d-flex justify-content-between align-items-center">
@@ -349,5 +358,8 @@
           </div>
         </footer><!-- end Footer -->
       </div><!--End bao toàn bộ khung websites-->
+                  
+              
+       
     </body>
-</html>       
+</html>
