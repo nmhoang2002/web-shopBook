@@ -18,11 +18,14 @@
         
     <div id = "main"><!--bao toàn bộ khung website-->
             <div id ="head"><!--phần Banner-->
-                <h1>Giỏ hàng</h1>
+                <h3>Danh sách sản phẩm</h3>
                 <div class="logo">
                   <img src="../img/logo.png" alt="logo"width="180px"; height="60px">
+
                 </div>
                 <!-- đơn hàng -->
+                <button  type="button" class="btn btn-success" style=" margin-left: 87.5%"><a href="../Action/insert.php" style=" color : white ; text-decoration: none; ">Thêm sách</a></button>
+
                 <?php 
             $query = "select * from book";
             $stmt = $dbConnection->prepare($query) ;
@@ -35,8 +38,8 @@
                     <th scope="col">Tên</th>
                     <th scope="col">Số lượng</th>
                     <th scope="col">Giá</th>
-                    <th scope="col">Chọn</th>                    
-                    <th scope="col" ></th>
+                    <th scope="col"  >Action</th>
+                   
             </tr>
             <?php while($rows = $stmt->fetch(PDO::FETCH_BOTH)){ ?>
                 <tr>
@@ -45,7 +48,9 @@
                     <td><?php echo $rows['name']; ?></td>
                     <td><input type="number" name="quantity" min="1" max="50"></td>
                     <td><?php echo $rows['price']; ?></td> 
-                    <td><button type="checkbox" class="form-check-input"></button></td>
+                    <td><button type="button" class="btn btn-danger"><a href="../Action/delete.php?hometown=abc&id=<?php echo $rows['id'] ?>"style ="color :white ; text-decoration: none ">Delete</a></button></td>
+
+                   
                    
                     
                 </tr>
@@ -53,9 +58,7 @@
                 } 
             ?>
         </table>
-        <div id = "order">
-                <button><a href="order.php">Đặt hàng</button>
-        </div>
+       
                 <!-- end đơn hàng -->
         <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>      
         <footer class="page-footer font-small special-color-dark pt-4">
