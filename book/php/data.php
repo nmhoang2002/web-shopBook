@@ -1,10 +1,10 @@
 
 <?php
     class Database {
-        private $host = "localhost"; 
-        private $dbName = "data";
-        private $username = "root";  
-        private $password = "";   
+        private $host = "localhost"; // tên host mysql cần kết nối
+        private $dbName = "databook"; // tên cơ sở dữ liệu
+        private $username = "root";  // username 
+        private $password = "";      // mật khẩu
         public $connection;
 
         public function getConnection(){

@@ -1,6 +1,6 @@
 <?php
-session_start();
-$userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
+  session_start();
+  $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
 ?>
 <!DOCTYPE html>
 <html>
@@ -89,8 +89,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                     <b><i style="color:red;">đ 109.000</i></b>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                      <a href="../page/giohang.php?id=<?php echo $value['id']?>"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
                       </div>
                       <!-- <small class="text-muted">9 mins</small> -->
@@ -108,7 +107,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                     
                        <a href="../view/tlh.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -127,7 +126,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                      
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -147,7 +146,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -166,7 +165,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                      
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -185,7 +184,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                     
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -205,7 +204,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -223,7 +222,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a>
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -241,7 +240,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -260,7 +259,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -279,7 +278,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>
@@ -298,7 +297,7 @@ $userInfo = isset($_SESSION['userInfo']) ? $_SESSION['userInfo'] : null;
                    <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
                      <a href="../page/giohang.php"> <button type="button" class="btn btn-sm btn-outline-secondary">giỏ hàng</button> </a> 
-                       <button type="button" class="btn btn-sm btn-outline-secondary">đặt hàng</button>
+                       
                        <a href="../view/vt.php"><button type="button" class="btn btn-sm btn-outline-secondary">thông tin</button></a>
 
                       </div>

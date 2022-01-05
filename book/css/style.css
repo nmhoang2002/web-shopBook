@@ -1,0 +1,33 @@
+body{
+    background-image: url("../img/nen.jpg");
+	width: 95%;
+    height: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #caecf1;
+}
+.err{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+form button{
+    margin-left: 35%;
+}
+.button{
+    font-size: 25px;
+    background-color: lightblue;
+    height: 40px;
+    width: 40%;
+    border-radius: 6px;
+}

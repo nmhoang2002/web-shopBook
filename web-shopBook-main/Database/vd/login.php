@@ -1,38 +1,38 @@
 <?php
-session_start();
-require_once __DIR__ . "/config.php";
-require_once __DIR__ . "/Db.php";
+    session_start();
+    require_once __DIR__ . "/config.php";
+    require_once __DIR__ . "/Db.php";
 
-$db = new Db();
-$db->table('user');
+    $db = new Db();
+    $db->table('user');
 
-$submit = isset($_POST['submit']) ? $_POST['submit'] : null;
-$username = isset($_POST['username']) ? $_POST['username'] : null;
-$password = isset($_POST['password']) ? $_POST['password'] : null;
+    $submit = isset($_POST['submit']) ? $_POST['submit'] : null;
+    $username = isset($_POST['username']) ? $_POST['username'] : null;
+    $password = isset($_POST['password']) ? $_POST['password'] : null;
 
-$loggedStatus = null;
-if ($submit === 'yes') {
-    $existedUser = $db
-                ->where([
-                    'm_username' => $username,
-                    'm_password' => md5($password)
-                ])
-                ->get()
-                ->result();
-        if ($existedUser !== false) {
-            $existedUser = $existedUser[0];
-            $loggedStatus = true;
-            $_SESSION['userInfo'] = [
-                'username' => $existedUser['m_username'],
-                'gender' => $existedUser['m_gender'],
-                'phone' => $existedUser['m_phone'],
-                'email' => $existedUser['m_email']
-            ];
-            header('location:../vd/index.php');
-        } else {
-            $loggedStatus = false;
-        }
-}
+    $loggedStatus = null;
+    if ($submit === 'yes') {
+        $existedUser = $db
+                    ->where([
+                        'm_username' => $username,
+                        'm_password' => md5($password)
+                    ])
+                    ->get()
+                    ->result();
+            if ($existedUser !== false) {
+                $existedUser = $existedUser[0];
+                $loggedStatus = true;
+                $_SESSION['userInfo'] = [
+                    'username' => $existedUser['m_username'],
+                    'gender' => $existedUser['m_gender'],
+                    'phone' => $existedUser['m_phone'],
+                    'email' => $existedUser['m_email']
+                ];
+                header('location:../vd/index.php');
+            } else {
+                $loggedStatus = false;
+            }
+    }
 ?>
 <!DOCTYPE html>
 <html>
