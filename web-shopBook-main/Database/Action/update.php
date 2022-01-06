@@ -26,7 +26,7 @@
         $coin = true ;
         if(isset($_POST['sua']) && $coin){
         
-            $id = null ;
+           
             $picture = $_POST['picture'] ;
             $name= $_POST['name'] ;
             $quantily = $_POST['quantily'] ;

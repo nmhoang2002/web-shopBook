@@ -21,10 +21,9 @@
                 <h3>Danh sách sản phẩm</h3>
                 <div class="logo">
                   <img src="../img/logo.png" alt="logo"width="180px"; height="60px">
-
                 </div>
                 <!-- đơn hàng -->
-                <button  type="button" class="btn btn-success" style=" margin-left: 87.5%"><a href="../Action/insert.php" style=" color : white ; text-decoration: none; ">Thêm sách</a></button>
+                <button  type="button" class="btn btn-success" style="margin-left: 87.5%"><a href="../Action/insert.php" style=" color : white ; text-decoration: none; ">ADD Book</a></button>
 
                 <?php 
             $query = "select * from book";

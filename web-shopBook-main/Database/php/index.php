@@ -2,7 +2,7 @@
 <html lang="vi">
     <head>
         <meta charset="utf-8">
-        <title>Giao Diên</title>
+        <title>Shop Book</title>
         <link rel="stylesheet" href="../js/scrip.js">
         <link rel="stylesheet" href="../css/Styles.css"> <!-- link tới file CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -72,7 +72,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/KHVT.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/KHVT.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                   <div class="card-body">
                     <title>abc</title>
@@ -91,7 +91,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                   <img src="../img/OIP.jpg" width="350" height="250" > <!--dòng này là để ảnh-->
+                   <img src="../img/OIP.jpg" width="371" height="250" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tâm Lý học<br> Nghệ thuật giải mã hành vi</p>
@@ -110,7 +110,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/KHVT2.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/KHVT2.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text"> Khoa học viễn tưởng <br> Cổ máy thời gian</p>
@@ -130,7 +130,7 @@
       
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TVH3.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TVH3.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tiểu thuyết thiếu niên<br> Độc thầm</p>
@@ -149,7 +149,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TH.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TH.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tiểu Thuyết Kinh dị<br>Âm mưu tẩy não</p>
@@ -168,7 +168,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TVH.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TVH.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Thiên văn học<br> Vũ trụ</p>
@@ -188,7 +188,7 @@
       
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/OIP2.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/OIP2.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text"> Tâm lý học<br> Tâm lý học trẻ em lứa tuổi mầm non</p>
@@ -207,7 +207,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                   <img src="../img/kh.jpg" width="350" height="250" > <!--dòng này là để ảnh-->
+                   <img src="../img/kh.jpg" width="371" height="250" > <!--dòng này là để ảnh-->
                     <div class="card-body">
                    <p class="card-text">Sách khoa học<br> Sinh lý học y khoa</p>
                    <b><i style="color:red;">đ 179.000</i></b>
@@ -225,7 +225,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                   <img src="../img/TT.jpg" width="350" height="250" > <!--dòng này là để ảnh-->
+                   <img src="../img/TT.jpg" width="371" height="250" > <!--dòng này là để ảnh-->
                  <div class="card-body">
                    <p class="card-text">Tiểu thuyết thiếu niên<br> Thiên quan tứ phúc tập 3</p>
                    <b><i style="color:red;">đ 119.000</i></b>

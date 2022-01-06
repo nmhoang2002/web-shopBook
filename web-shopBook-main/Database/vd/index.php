@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/KHVT.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/KHVT.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                   <div class="card-body">
                     <p class="card-text"> Khoa học viễn tưởng<br>Người truyền ký ức</p>
@@ -99,7 +99,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                   <img src="../img/OIP.jpg" width="350" height="250" > <!--dòng này là để ảnh-->
+                   <img src="../img/OIP.jpg" width="371" height="250" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tâm Lý học<br> Nghệ thuật giải mã hành vi</p>
@@ -118,7 +118,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/KHVT2.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/KHVT2.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text"> Khoa học viễn tưởng <br> Cổ máy thời gian</p>
@@ -138,7 +138,7 @@
       
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TVH3.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TVH3.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tiểu thuyết thiếu niên<br> Độc thầm</p>
@@ -157,7 +157,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TH.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TH.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Tiểu Thuyết Kinh dị<br>Âm mưu tẩy não</p>
@@ -176,7 +176,7 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/TVH.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/TVH.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text">Thiên văn học<br> Vũ trụ</p>
@@ -196,7 +196,7 @@
       
               <div class="col">
                 <div class="card shadow-sm">
-                <img src="../img/OIP2.jpg" width="350" height="255" > <!--dòng này là để ảnh-->
+                <img src="../img/OIP2.jpg" width="371" height="255" > <!--dòng này là để ảnh-->
                  
                  <div class="card-body">
                    <p class="card-text"> Tâm lý học<br> Tâm lý học trẻ em lứa tuổi mầm non</p>

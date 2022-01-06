@@ -1,0 +1,48 @@
+body{
+  
+	width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+form{
+    width: 64%;
+    margin-top: 80px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color :rgb(253, 249, 249,0.20) ;
+    padding: 10px 50px 1px 50px;
+    margin-left: 18%;
+    height: 530px ;
+}
+form button{
+    margin-left: 45%;
+}
+h3{
+    margin-top:60px;
+    text-align: center;
+}
+.err{
+    color: red;
+    font-size: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+ 
+ .table th{
+    background-color: green;
+}
+
+.table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
