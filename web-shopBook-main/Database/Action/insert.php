@@ -29,9 +29,6 @@
             $name= $_POST['name'] ;
             $quantily = $_POST['quantily'] ;
             $price = $_POST['price'] ;
-           
-           
-           
             if($picture==""){
                 $strpic = "Không được bỏ trống ảnh bìa" ;
                 $coin = false ;
@@ -50,7 +47,7 @@
             }
           
             if($coin){
-                $sql = "INSERT INTO book (picture,name, quantily, price) VALUE('$picture','$name','quantily','$price')";
+                $sql = "INSERT INTO book (picture,name, quantily, price) VALUE('$picture','$name','$quantily','$price')";
                 $stmt = $dbConnection->prepare($sql);
                 $stmt->execute();
                 header('location:../page/giohang.php');
@@ -83,12 +80,12 @@
             <label class="col-sm-2 col-form-label"style="color:black"> price:</label>
             <div class="col-sm-10">
             <input name="price" type="text" class="form-control" >
-            <span class="err"><?= $strnum?></span>
+            <span class="err"><?= $strcre?></span>
             </div>
         </div>
       
         
-        <button name = "sua" type="submit" style="margin-right:50%" class="btn btn-primary">OK</button>
+        <button name = "them" type="submit" style="margin-right:50%" class="btn btn-primary">OK</button>
     </form>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <?php
-	include '../php/database.php';
+	include '../php/ketnoi.php';
     $strname ="" ;
-    $strpass = "" ;
-    $strhom = "" ;
-    $strava = "" ;
+    $strpic = "" ;
+    $strrice = "" ;
+    $strtype= "" ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,64 +26,63 @@
         $coin = true ;
         if(isset($_POST['sua']) && $coin){
         
-            $name = $_POST['name'] ;
-            $password = $_POST['password'] ;
-            $description = $_POST['description'] ;
-            $numpage = $_POST['numpage'] ;
+            $id = null ;
             $picture = $_POST['picture'] ;
-            if($name==""){
-                $strname = "Email không được bỏ trống" ;
-                $coin = false ;
-            }
-            if($password==""){
-                $strpass = "Password không được bỏ trống" ;
-                $coin = false ;
-            }
-            if($description==""){
-                $strhom = "Hometown không được bỏ trống" ;
-                $coin = false ;
-            }
+            $name= $_POST['name'] ;
+            $quantily = $_POST['quantily'] ;
+            $price = $_POST['price'] ;
             if($picture==""){
-                $strava = "Avatar không được bỏ trống" ;
+                $strpic = "Không được bỏ trống ảnh bìa" ;
+                $coin = false ;
+            }
+            if($name==""){
+                $strname = "Không được bỏ trống tên sách" ;
+                $coin = false ;
+            }
+            if($quantily==""){
+                $strtype = "Không được bỏ trống " ;
+                $coin = false ;
+            }
+            if($price==""){
+                $strrice = "Không được bỏ trống " ;
                 $coin = false ;
             }
             if($coin){
-                $sql = "UPDATE book SET name='$name', password='$password', description='$description', numpage='$numpage', picture='$picture' WHERE id='$id'";
+                $sql = "UPDATE book SET picture='$picture',name='$name', quantily='$quantily',price=$price WHERE id='$id'";
                 $stmt = $dbConnection->prepare($sql);
                 $stmt->execute();
-                header('location:../php/index.php');
+                header('location:../page/giohang.php');
             }
         } 
      ?>   
     <form action="#" method="POST">
         <h1>Sửa Book</h1>
+        <div class="mb-3">
+            <label class="col-sm-2 col-form-label"style="color:black"> Picture:</label>
+            <input name="picture" class="form-control" type="file" id="formFile">
+            <span class="err"><?= $strpic?></span>
+        </div>
         <div class="row mb-3">
-            <label class="col-sm-2 col-form-label"><i class="fa fa-user icon"></i> Name:</label>
+            <label class="col-sm-2 col-form-label" style="color:black"> Name:</label>
             <div class="col-sm-10">
-            <input name="name" type="email" value="<?= $user['name'] ?>" class="form-control">
+            <input name="name" type="name" class="form-control">
             <span class="err"><?= $strname?></span>
             </div>
         </div>
+      
         <div class="row mb-3">
-            <label class="col-sm-2 col-form-label"><i class="fa fa-lock icon"></i> Password:</label>
+            <label class="col-sm-2 col-form-label"style="color:black"> quantily:</label>
             <div class="col-sm-10">
-            <input name="password" type="password" class="form-control" >
-            <span class="err"><?= $strpass?></span>
-            </div>
-        </div class="row mb-3">
-        </div>
-        <div class="row mb-3">
-            <label class="col-sm-2 col-form-label"><i class="fa fa-address-card-o"></i>Description</label>
-            <div class="col-sm-10">
-            <input name="description" type="text" value="<?=$user['description']?>" class="form-control" id="inputEmail3">
-            <span class="err"><?= $strhom?></span>
+            <input name="quantily" type="text" class="form-control" >
+            <span class="err"><?= $strtype?></span>
             </div>
         </div>
-        <div class="mb-3">
-            <label class="col-sm-2 col-form-label"><i class="fa fa-image icon"></i> Picture:</label>
-            <input name="picture" class="form-control" type="file" id="formFile">
-            <img src="<?=$user['picture']?>" />
-            <span class="err"><?= $strava?></span>
+        <div class="row mb-3">
+            <label class="col-sm-2 col-form-label"style="color:black"> price:</label>
+            <div class="col-sm-10">
+            <input name="price" type="text" class="form-control" >
+            <span class="err"><?= $strrice?></span>
+            </div>
         </div>
         <button name = "sua" type="submit" class="btn btn-primary">UPDATE</button>
     </form>

@@ -38,17 +38,18 @@
                     <th scope="col">Tên</th>
                     <th scope="col">Số lượng</th>
                     <th scope="col">Giá</th>
-                    <th scope="col"  >Action</th>
+                    <th scope="col" colspan="2" ></th>
                    
             </tr>
             <?php while($rows = $stmt->fetch(PDO::FETCH_BOTH)){ ?>
                 <tr>
                     <td><?php echo $rows['id']; ?></td> 
-                    <td><img src=" <?php echo $rows['picture']; ?>" width="50px" height="50px"></td>
+                    <td><img src="../img/<?php echo $rows['picture']; ?>" width="50px" height="50px"></td>
                     <td><?php echo $rows['name']; ?></td>
                     <td><input type="number" name="quantity" min="1" max="50"></td>
                     <td><?php echo $rows['price']; ?></td> 
                     <td><button type="button" class="btn btn-danger"><a href="../Action/delete.php?hometown=abc&id=<?php echo $rows['id'] ?>"style ="color :white ; text-decoration: none ">Delete</a></button></td>
+                    <td><button type="button" class="btn btn-primary"><a href="../Action/update.php?id=<?php echo $rows['id'] ?>" style ="color :white ; text-decoration: none ">Update</a></button></td>
 
                    
                    
